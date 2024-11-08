@@ -1,0 +1,22 @@
+#root {
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.main {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  text-align: center; 
+  background-color: grey;
+  border: 3px solid black;
+  border-radius: 10px;
+
+}
+
+.noyet {
+  color: brown;
+  font-style: oblique;
+  font-family: 'Robota', sans-serif;
+}

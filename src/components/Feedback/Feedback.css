@@ -1,0 +1,13 @@
+.answer {
+    display: flex;
+    margin: 1px;
+}
+
+.answers {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.positive {
+    color: brown;
+}
