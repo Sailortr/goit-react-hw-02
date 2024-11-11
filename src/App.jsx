@@ -3,6 +3,7 @@ import Description from "./components/Description/Description";
 import Options from "./components/Options/Options";
 import Feedback from "./components/Feedback/Feedback";
 import "./App.css"
+import Notification from "./components/Notification/Notification";
 
 function App() {
   const [feedback, setFeedback] = useState(() => {
@@ -26,10 +27,6 @@ function App() {
   }
 
   const totalFeedback = feedback.neutral + feedback.good + feedback.bad;
-
-  function Notification() {
-    return <p className="noyet">No feedback yet</p>;
-  }
 
   return (
     <>
